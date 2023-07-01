@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  
+  height: 100vh;
+}
+
+.max-width{
+  height:auto !important;
+    min-height:100%;
+  
+
+}

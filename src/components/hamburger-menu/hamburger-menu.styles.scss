@@ -1,0 +1,61 @@
+.hamburger-section{
+    width: 100%;
+    background-color: #33323d;
+    border: orange;
+    border-style: solid;
+    border-width: 10px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+    z-index: 3; 
+    height: 215px;
+    transition: top .5s ease-out;
+    @media (min-width:751px){
+       display: none;
+    }
+
+    .logo-hamburger{
+        width: 180px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        @media (max-width:485px){
+            width: 130px;
+            margin-top: 1.5rem;
+        }
+    }
+
+    .hamburger-container{
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+
+    a{  
+        text-decoration: none;
+        margin-right: 1rem;
+        font-weight: 700;
+        font-size: 17px;
+        overflow: hidden;
+        background: linear-gradient(to right,orange,orange 50%, rgb(239, 242, 242) 50%);
+        background-clip: text;
+        -webkit-background-clip: text!important;
+        -webkit-text-fill-color: transparent;
+        background-size: 200% 100%!important;
+        background-position: 100%!important;
+        transition: background-position 275ms ease;
+
+        @media (max-width:750px){
+            align-self: center;
+            margin: 0 auto;
+            margin-bottom: 1rem;
+        }
+
+
+        &:hover {
+            background-position: 0 100%!important;
+          }
+        }
+    }
+}

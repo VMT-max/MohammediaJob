@@ -1,0 +1,239 @@
+.search-list{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.20),rgba(0, 0, 0, 0.7)),url("../../assets/search-background-3.jpg");
+    background-size: cover;
+    max-height: 250px;
+    width: 100%;
+    background-repeat:no-repeat;
+    background-position: center ;
+    top: 0;
+    border-bottom: orange;
+    border-width: 0px 0px 13px 0px;
+    border-style: solid;
+    height: 100%;
+    position: absolute;
+    
+};
+.header-logo-choice-container{
+        
+    display: flex;
+    top: 4.5rem;
+    position: absolute;
+    right: 3rem;
+    @media (max-width:750px){
+        display: none;
+    }
+    a{
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: 17px;
+    overflow: hidden;
+    background: linear-gradient(to right,orange,orange 50%, rgb(239, 242, 242) 50%);
+    background-clip: text;
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent;
+    background-size: 200% 100%;
+    background-position: 100%;
+    transition: background-position 275ms ease;
+    &:hover {
+        background-position: 0 100%;
+      }
+    }
+}
+.button-filters{
+    padding: 0;
+        border-radius: 5px;
+        width: 85%;
+        outline: none;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin: 0;
+        border: none;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        transition: background .3s ease-out;
+        background-color: #3852d4;
+        color: #fff;
+        height: 60px;
+        vertical-align: top;
+        box-shadow: 5px 5px 10px rgba(24, 24, 24, 0.2);
+        &:hover{
+            background-color: #203787;
+            transition: background .3s ease-out;
+        }
+        @media (min-width:1016px){
+      
+            display: none;
+        }
+
+        @media (max-width:440px){
+      
+            width: 87%;
+        }
+    }
+
+.searching{
+    display: flex;
+    width: 93%;
+    margin: 0 auto;
+    @media (max-width:1015px){
+        width: 95%;
+        
+    }
+}
+
+.params-search{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    @media (max-width:1015px){
+        display: none;
+        
+    }
+}
+
+.jobb{
+    color: orange;
+    font-style: italic;
+}
+
+.iando{
+    color: white;
+    font-style: italic;
+}
+.jobiando-mobil-logo{
+    @media (max-width:425px){
+        top: 4.2rem!important;
+        left: 1rem!important;
+        width: 120px!important;
+    }
+.logo-search-list{
+    width: 180px;
+    display: flex;
+    top: 3rem;
+    left: 3rem;
+
+    @media (max-width:950px){
+        width: 130px;
+        top: 3.8rem;
+    }
+    @media (max-width:410px){
+        width: 145px;
+        
+        
+    }
+    
+    
+}
+}
+.hamburger-react{
+    color: white;
+    display: flex;
+    z-index: 4;
+  top: 3.7rem;
+  position: absolute!important;
+  right: 4rem;
+  @media (min-width:751px){
+      display: none;
+  }
+  @media (max-width:550px){
+      right: 44px;
+      
+  }
+  
+  @media (max-width:425px){
+      right: 1rem;
+      
+  }
+  @media (max-width:360px){
+      right: 0.5rem;
+      
+  }
+}
+.search-filter-params-mobile{
+    background-color: #FAF8F5;
+    top: 0;
+    z-index: 4;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+    height: 100 vh;
+    left: 0;
+    overflow: scroll;
+
+    svg{
+        height: 30px;
+        width: auto;
+        position: absolute;
+        right: 1rem;
+        top: 20px;
+        cursor: pointer;
+        }
+    
+
+    @media (min-width:1016px){
+        display: none!important;
+        
+    }
+    
+
+
+    .search-filter-mobile-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 55%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 22px #ccc;
+    @media (max-width:800px){
+        width: 70%;
+    }
+    
+
+    }
+    .button-filters-mobil{
+        padding: 0;
+        border-radius: 10px;
+        outline: none;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        cursor: pointer;
+        letter-spacing: 1px;
+        margin: 0;
+        border: none;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 24px;
+        transition: background .3s ease-out;
+        background-color: #3852d4;
+        color: #fff;
+        height: 60px;
+        vertical-align: top;
+        box-shadow: 5px 5px 10px rgba(24, 24, 24, 0.2);
+        width: 59%;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+        @media (max-width:800px){
+            width: 76%;
+        }
+        
+        &:hover{
+            background-color: #203787;
+            transition: background .3s ease-out;
+        }
+    }
+    
+}
+
+
+
